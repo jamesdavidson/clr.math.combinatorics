@@ -675,7 +675,7 @@ represented by freqs"
 (defmacro ^:private reify-bool
   [statement]
   `(if ~statement 1 0))
-   :cljs
+   :default
     (defn- reify-bool [statement]
       (if statement 1 0)))
 
