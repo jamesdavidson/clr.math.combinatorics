@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>netframework2.0;netframework2.1</TargetFrameworks>
+        <ImplicitUsings>disable</ImplicitUsings>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>clojure.math.combinatorics</PackageId>
+        <RootNamespace>clojure.math.combinatorics</RootNamespace>
+        <Title>clojure.math.combinatorics</Title>
+        <Product>clojure.math.combinatorics</Product>
+        <AssemblyTitle>clojure.math.combinatorics</AssemblyTitle>
+        <Authors>Mark Engelberg</Authors>
+        <Description>Efficient, functional algorithms for generating lazy sequences for common combinatorial functions</Description>
+        <Copyright>Copyright (c) Mark Engleberg, Rich Hickey and contributors</Copyright>
+        <PackageLicenseExpression>EPL-1.0</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/jamesdavidson/clr.math.combinatorics</RepositoryUrl>
+        <Company>Clojure contributors</Company>
+        <PackageTags>Clojure;ClojureCLR</PackageTags>
+        <Version>$(PublishVersion)</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <EmbeddedResource
+                LogicalName="clojure.math.combinatorics.cljc"
+                Include="src/main/clojure/clojure/math/combinatorics.cljc"
+                CopyToOutputDirectory="Never"
+        />
+    </ItemGroup>
+
+</Project>
