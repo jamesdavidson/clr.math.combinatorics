@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netframework2.0;netframework2.1</TargetFrameworks>
+        <TargetFrameworks>netframework2.0</TargetFrameworks>
         <ImplicitUsings>disable</ImplicitUsings>
     </PropertyGroup>
 
